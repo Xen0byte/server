@@ -60,7 +60,6 @@ class MemoryInfoTest extends TestCase {
 	public function getMemoryLimitTestData(): array {
 		return [
 			'unlimited' => ['-1', -1,],
-			'0' => ['0', 0,],
 			'134217728 bytes' => ['134217728', 134217728,],
 			'128M' => ['128M', 134217728,],
 			'131072K' => ['131072K', 134217728,],
